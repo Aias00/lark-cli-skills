@@ -1,0 +1,34 @@
+{
+  "presentation": {
+    "title": "项目周报",
+    "subtitle": "面向项目干系人的阶段汇报",
+    "source": {
+      "input_kind": "doc_name",
+      "resolved_kind": "doc_url",
+      "resolved_value": "https://example.feishu.cn/docx/doccn123",
+      "title": "项目周报原文"
+    },
+    "target_mode": "new",
+    "content_mode": "report",
+    "max_slides": null,
+    "theme": "briefing",
+    "cover_style": "editorial"
+  },
+  "slides": [
+    {
+      "no": 1,
+      "role": "cover",
+      "section_divider": false,
+      "title": "项目周报",
+      "objective": "面向项目干系人的阶段汇报",
+      "layout": "title-only",
+      "key_points": [
+        "本周进展、风险与下一步"
+      ],
+      "source_sections": [
+        "项目周报"
+      ],
+      "notes": "示例模板。当前 renderer 优先使用 presentation.subtitle 作为封面副标题；若未提供，再回退到 cover slide 的 objective 和 key_points；正文内容请另起 content slide。"
+    }
+  ]
+}
