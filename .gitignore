@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+
+.lark-workflow-doc-to-slides/
+.omx/
+.playwright-mcp/
+.superpowers/
+.tmp-import/
+
+template-slide-*.png
