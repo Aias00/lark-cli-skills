@@ -604,7 +604,7 @@ python3 lark-workflow-doc-to-slides/scripts/doc_to_slides.py render \
 检查点：
 
 - `outline.json` 里的 `presentation.target_mode` 已明确是 `append`
-- 首张 slide 已变成 append-safe 的章节页，而不是模板里的通用封面
+- 首张 slide 已变成 append-safe 的章节页，而不是 `templates/outline.json` 示例里的通用封面
 - `validate-outline` 成功
 - `slides.json`、`render-summary.json` 已生成
 
