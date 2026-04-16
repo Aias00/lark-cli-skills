@@ -351,7 +351,7 @@ python3 lark-workflow-doc-to-slides/scripts/doc_to_slides.py render \
   --run-dir /tmp/doc-to-slides-run
 ```
 
-### Step 6A: 新建 Slides（无模板）
+### Step 6A: 新建 Slides
 
 ```bash
 python3 lark-workflow-doc-to-slides/scripts/doc_to_slides.py publish \

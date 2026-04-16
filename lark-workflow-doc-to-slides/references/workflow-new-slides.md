@@ -192,7 +192,7 @@ python3 lark-workflow-doc-to-slides/scripts/doc_to_slides.py render \
 
 ## Step 7: Publish
 
-### 无模板：直接新建 deck
+### 新建 deck
 
 发布规则是固定的：
 
