@@ -470,8 +470,8 @@ python3 lark-workflow-doc-to-slides/scripts/doc_to_slides.py render \
 
 当前仓库内已通过本地回归验证的路径：
 
-- `validate-outline` 可校验模板 outline
-- `render` 可从模板 outline 生成 `slides.json`
+- `validate-outline` 可校验 `templates/outline.json` 示例
+- `render` 可从示例 outline 生成 `slides.json`
 - `doc_token=wik...` 会先归一化为 wiki source，再解析到底层 `doc` / `docx`
 - `resolve-target --target-slides-url=/wiki/...` 会先解析到底层 Slides，再写出 `resolved-target.json`
 
