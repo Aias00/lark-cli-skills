@@ -34,70 +34,144 @@ DEFAULT_COVER_STYLE_BY_THEME = {
     "briefing": "editorial",
     "document": "editorial",
     "spotlight": "modern",
+    "minimal": "modern",
+    "sunset": "modern",
 }
 THEME_PRESETS = {
     "briefing": {
-        "slide_bg": "rgb(243,247,252)",
+        # 商务汇报风：专业蓝色系，适合周报、月报、项目汇报
+        "slide_bg": "rgb(248,250,252)",
         "title_color": "rgb(15,23,42)",
         "body_color": "rgb(51,65,85)",
         "cover_title_color": "rgb(255,255,255)",
-        "cover_body_color": "rgb(219,234,254)",
-        "cover_modern_hero_fill": "rgb(219,234,254)",
+        "cover_body_color": "rgb(191,219,254)",
+        "cover_modern_hero_fill": "rgb(29,78,216)",
         "cover_modern_card_fill": "rgb(255,255,255)",
-        "muted_color": "rgb(71,85,105)",
+        "muted_color": "rgb(100,116,139)",
         "panel_fill": "rgb(255,255,255)",
         "panel_alt_fill": "rgb(239,246,255)",
-        "border_color": "rgb(191,219,254)",
-        "cover_band_fill": "rgb(37,99,235)",
+        "border_color": "rgb(203,213,225)",
+        "cover_band_fill": "rgb(29,78,216)",
         "content_band_fill": "rgb(59,130,246)",
         "comparison_left_fill": "rgb(219,234,254)",
         "comparison_right_fill": "rgb(191,219,254)",
         "timeline_rail_fill": "rgb(59,130,246)",
         "timeline_item_fill": "rgb(255,255,255)",
         "metrics_card_fill": "rgb(219,234,254)",
-        "metrics_highlight_fill": "rgb(96,165,250)",
+        "metrics_highlight_fill": "rgb(59,130,246)",
+        # 新增字段
+        "sidebar_accent": "rgb(29,78,216)",
+        "number_badge_fill": "rgb(29,78,216)",
+        "number_badge_text": "rgb(255,255,255)",
+        "title_bg_fill": "rgb(239,246,255)",
     },
     "document": {
-        "slide_bg": "rgb(250,247,240)",
-        "title_color": "rgb(68,64,60)",
-        "body_color": "rgb(87,83,78)",
-        "cover_title_color": "rgb(248,250,252)",
-        "cover_body_color": "rgb(220,252,231)",
-        "cover_modern_hero_fill": "rgb(220,252,231)",
-        "cover_modern_card_fill": "rgb(255,252,245)",
-        "muted_color": "rgb(120,113,108)",
-        "panel_fill": "rgb(255,252,245)",
-        "panel_alt_fill": "rgb(236,253,245)",
-        "border_color": "rgb(187,247,208)",
-        "cover_band_fill": "rgb(22,101,52)",
-        "content_band_fill": "rgb(34,197,94)",
-        "comparison_left_fill": "rgb(220,252,231)",
-        "comparison_right_fill": "rgb(240,253,244)",
-        "timeline_rail_fill": "rgb(34,197,94)",
-        "timeline_item_fill": "rgb(255,252,245)",
-        "metrics_card_fill": "rgb(220,252,231)",
-        "metrics_highlight_fill": "rgb(74,222,128)",
+        # 现代科技风：深蓝主色 + 浅灰背景，适合技术文档、知识分享
+        "slide_bg": "rgb(248,250,252)",
+        "title_color": "rgb(30,41,59)",
+        "body_color": "rgb(71,85,105)",
+        "cover_title_color": "rgb(255,255,255)",
+        "cover_body_color": "rgb(148,163,184)",
+        "cover_modern_hero_fill": "rgb(30,64,175)",
+        "cover_modern_card_fill": "rgb(255,255,255)",
+        "muted_color": "rgb(100,116,139)",
+        "panel_fill": "rgb(255,255,255)",
+        "panel_alt_fill": "rgb(241,245,249)",
+        "border_color": "rgb(203,213,225)",
+        "cover_band_fill": "rgb(30,64,175)",
+        "content_band_fill": "rgb(59,130,246)",
+        "comparison_left_fill": "rgb(239,246,255)",
+        "comparison_right_fill": "rgb(224,231,255)",
+        "timeline_rail_fill": "rgb(59,130,246)",
+        "timeline_item_fill": "rgb(255,255,255)",
+        "metrics_card_fill": "rgb(239,246,255)",
+        "metrics_highlight_fill": "rgb(96,165,250)",
+        # 新增字段
+        "sidebar_accent": "rgb(59,130,246)",
+        "number_badge_fill": "rgb(59,130,246)",
+        "number_badge_text": "rgb(255,255,255)",
+        "title_bg_fill": "rgb(239,246,255)",
     },
     "spotlight": {
+        # 深色演示风：深色背景 + 鲜艳强调色，适合发布会、演讲
         "slide_bg": "rgb(15,23,42)",
         "title_color": "rgb(248,250,252)",
         "body_color": "rgb(226,232,240)",
         "cover_title_color": "rgb(255,255,255)",
         "cover_body_color": "rgb(254,215,170)",
-        "cover_modern_hero_fill": "rgb(30,41,59)",
-        "cover_modern_card_fill": "rgb(51,65,85)",
+        "cover_modern_hero_fill": "rgb(88,28,135)",
+        "cover_modern_card_fill": "rgb(30,41,59)",
         "muted_color": "rgb(148,163,184)",
         "panel_fill": "rgb(30,41,59)",
         "panel_alt_fill": "rgb(51,65,85)",
         "border_color": "rgb(71,85,105)",
-        "cover_band_fill": "rgb(249,115,22)",
-        "content_band_fill": "rgb(56,189,248)",
+        "cover_band_fill": "rgb(168,85,247)",
+        "content_band_fill": "rgb(139,92,246)",
         "comparison_left_fill": "rgb(30,41,59)",
         "comparison_right_fill": "rgb(51,65,85)",
-        "timeline_rail_fill": "rgb(234,88,12)",
+        "timeline_rail_fill": "rgb(168,85,247)",
         "timeline_item_fill": "rgb(30,41,59)",
         "metrics_card_fill": "rgb(51,65,85)",
-        "metrics_highlight_fill": "rgb(124,58,237)",
+        "metrics_highlight_fill": "rgb(168,85,247)",
+        # 新增字段
+        "sidebar_accent": "rgb(139,92,246)",
+        "number_badge_fill": "rgb(139,92,246)",
+        "number_badge_text": "rgb(255,255,255)",
+        "title_bg_fill": "rgb(30,41,59)",
+    },
+    "minimal": {
+        # 极简黑白灰：设计感、艺术、现代简约风格
+        "slide_bg": "rgb(255,255,255)",
+        "title_color": "rgb(17,24,39)",
+        "body_color": "rgb(55,65,81)",
+        "cover_title_color": "rgb(255,255,255)",
+        "cover_body_color": "rgb(156,163,175)",
+        "cover_modern_hero_fill": "rgb(17,24,39)",
+        "cover_modern_card_fill": "rgb(249,250,251)",
+        "muted_color": "rgb(107,114,128)",
+        "panel_fill": "rgb(249,250,251)",
+        "panel_alt_fill": "rgb(243,244,246)",
+        "border_color": "rgb(209,213,219)",
+        "cover_band_fill": "rgb(17,24,39)",
+        "content_band_fill": "rgb(75,85,99)",
+        "comparison_left_fill": "rgb(243,244,246)",
+        "comparison_right_fill": "rgb(229,231,235)",
+        "timeline_rail_fill": "rgb(75,85,99)",
+        "timeline_item_fill": "rgb(255,255,255)",
+        "metrics_card_fill": "rgb(243,244,246)",
+        "metrics_highlight_fill": "rgb(75,85,99)",
+        # 新增字段
+        "sidebar_accent": "rgb(75,85,99)",
+        "number_badge_fill": "rgb(55,65,81)",
+        "number_badge_text": "rgb(255,255,255)",
+        "title_bg_fill": "rgb(243,244,246)",
+    },
+    "sunset": {
+        # 暖橙琥珀色系：温暖、活力、创意场景
+        "slide_bg": "rgb(255,251,245)",
+        "title_color": "rgb(41,37,36)",
+        "body_color": "rgb(68,64,60)",
+        "cover_title_color": "rgb(255,255,255)",
+        "cover_body_color": "rgb(254,243,199)",
+        "cover_modern_hero_fill": "rgb(234,88,12)",
+        "cover_modern_card_fill": "rgb(255,255,255)",
+        "muted_color": "rgb(120,113,108)",
+        "panel_fill": "rgb(255,255,255)",
+        "panel_alt_fill": "rgb(254,252,247)",
+        "border_color": "rgb(253,230,138)",
+        "cover_band_fill": "rgb(234,88,12)",
+        "content_band_fill": "rgb(245,158,11)",
+        "comparison_left_fill": "rgb(254,243,199)",
+        "comparison_right_fill": "rgb(254,215,170)",
+        "timeline_rail_fill": "rgb(245,158,11)",
+        "timeline_item_fill": "rgb(255,255,255)",
+        "metrics_card_fill": "rgb(254,243,199)",
+        "metrics_highlight_fill": "rgb(245,158,11)",
+        # 新增字段
+        "sidebar_accent": "rgb(234,88,12)",
+        "number_badge_fill": "rgb(234,88,12)",
+        "number_badge_text": "rgb(255,255,255)",
+        "title_bg_fill": "rgb(254,243,199)",
     },
 }
 FETCHABLE_ENTITY_TYPES = {"DOC", "DOCX"}
@@ -722,6 +796,50 @@ def rect_shape(
     )
 
 
+def circle_shape(
+    x: int,
+    y: int,
+    diameter: int,
+    fill_color: str,
+    *,
+    border_color: str | None = None,
+    border_width: int = 0,
+) -> str:
+    """Create a circle shape. x and y are center coordinates."""
+    radius = diameter // 2
+    # For ellipse, topLeftX and topLeftY are top-left corner of bounding box
+    top_left_x = x - radius
+    top_left_y = y - radius
+    if border_color is None:
+        border_color = fill_color
+    return (
+        f'<shape type="ellipse" topLeftX="{top_left_x}" topLeftY="{top_left_y}" width="{diameter}" height="{diameter}">'
+        f'<fill><fillColor color="{fill_color}"/></fill>'
+        f'<border color="{border_color}" width="{border_width}"/>'
+        "</shape>"
+    )
+
+
+def rounded_rect_shape(
+    x: int,
+    y: int,
+    width: int,
+    height: int,
+    fill_color: str,
+    *,
+    border_color: str = "rgb(203,213,225)",
+    border_width: int = 2,
+    corner_radius: int = 12,
+) -> str:
+    """Create a rounded rectangle shape."""
+    return (
+        f'<shape type="roundRect" topLeftX="{x}" topLeftY="{y}" width="{width}" height="{height}" cornerRadius="{corner_radius}">'
+        f'<fill><fillColor color="{fill_color}"/></fill>'
+        f'<border color="{border_color}" width="{border_width}"/>'
+        "</shape>"
+    )
+
+
 def centered_text_shape(
     x: int,
     y: int,
@@ -910,6 +1028,22 @@ def bullets_xml(points: list[str], *, color: str, font_size: int = 20) -> str:
         f'<ul><li><p><span color="{color}" fontSize="{font_size}">{escape(point)}</span></p></li></ul>'
         for point in points
     )
+
+
+def numbered_bullets_xml(points: list[str], *, color: str, font_size: int = 20, badge_fill: str, badge_text: str) -> str:
+    """生成带序号的要点列表"""
+    if not points:
+        return "<p></p>"
+    items = []
+    for i, point in enumerate(points, start=1):
+        # 序号使用主题色，文本使用正文色
+        items.append(
+            f'<p>'
+            f'<span color="{badge_fill}" fontSize="{font_size}" bold="true">{i}. </span>'
+            f'<span color="{color}" fontSize="{font_size}">{escape(point)}</span>'
+            f'</p>'
+        )
+    return "".join(items)
 
 
 def wrap_slide(data_xml: str, theme: dict, note_text: str = "") -> str:
@@ -1247,62 +1381,130 @@ def render_cover_modern_slide(slide: dict, presentation: dict, theme: dict) -> s
 
 def render_plain_title_only_slide(slide: dict, theme: dict) -> str:
     subtitle = slide.get("objective") or (slide.get("key_points") or [""])[0]
+    sidebar_accent = theme.get("sidebar_accent", theme["content_band_fill"])
+    badge_fill = theme.get("number_badge_fill", theme["content_band_fill"])
+
     data_xml = [
+        # 左侧装饰条
+        rect_shape(
+            0,
+            0,
+            12,
+            SLIDE_HEIGHT,
+            sidebar_accent,
+            border_color=sidebar_accent,
+            border_width=0,
+        ),
+        # 顶部装饰线
+        rect_shape(
+            12,
+            0,
+            SLIDE_WIDTH - 12,
+            4,
+            sidebar_accent,
+            border_color=sidebar_accent,
+            border_width=0,
+        ),
+        # 标题
         text_shape(
             96,
-            118,
+            200,
             736,
             96,
             "title",
-            styled_paragraph(slide["title"], color=theme["title_color"], font_size=28),
+            styled_paragraph(slide["title"], color=theme["title_color"], font_size=32),
         ),
     ]
     if subtitle:
         data_xml.append(
             text_shape(
                 96,
-                228,
+                300,
                 768,
                 120,
                 "body",
                 styled_paragraph(subtitle, color=theme["body_color"], font_size=20),
             )
         )
+    # 右下角页码
+    data_xml.append(
+        text_shape(
+            SLIDE_WIDTH - 80,
+            SLIDE_HEIGHT - 40,
+            60,
+            24,
+            "body",
+            styled_paragraph(str(slide.get("no", "")), color=theme["muted_color"], font_size=14),
+        )
+    )
     return wrap_slide("".join(data_xml), theme, slide.get("notes", ""))
 
 
 def render_section_divider_slide(slide: dict, theme: dict) -> str:
     subtitle = slide.get("objective") or (slide.get("key_points") or [""])[0]
+    sidebar_accent = theme.get("sidebar_accent", theme["content_band_fill"])
+    badge_fill = theme.get("number_badge_fill", theme["content_band_fill"])
+    panel_fill = theme.get("panel_fill", "rgb(248,250,252)")
+
+    # 章节页使用更大更突出的设计
     data_xml = [
+        # 左侧宽装饰条
         rect_shape(
-            80,
-            88,
-            240,
-            14,
-            theme["content_band_fill"],
-            border_color=theme["content_band_fill"],
+            0,
+            0,
+            24,
+            SLIDE_HEIGHT,
+            sidebar_accent,
+            border_color=sidebar_accent,
             border_width=0,
         ),
+        # 右侧大装饰圆环
+        circle_shape(SLIDE_WIDTH - 100, 400, 200, panel_fill),
+        circle_shape(SLIDE_WIDTH - 100, 400, 160, theme["slide_bg"]),
+        # 标题左侧装饰线
+        rect_shape(
+            80,
+            200,
+            120,
+            8,
+            sidebar_accent,
+            border_color=sidebar_accent,
+            border_width=0,
+        ),
+        # 装饰圆点
+        circle_shape(60, 204, 12, badge_fill),
+        # 标题
         text_shape(
-            96,
-            118,
-            736,
-            96,
+            80,
+            220,
+            700,
+            80,
             "title",
-            styled_paragraph(slide["title"], color=theme["title_color"], font_size=28),
+            styled_paragraph(slide["title"], color=theme["title_color"], font_size=36),
         ),
     ]
     if subtitle:
         data_xml.append(
             text_shape(
-                96,
-                228,
-                768,
-                120,
+                80,
+                310,
+                700,
+                60,
                 "body",
-                styled_paragraph(subtitle, color=theme["body_color"], font_size=20),
+                styled_paragraph(subtitle, color=theme["muted_color"], font_size=20),
             )
         )
+    # 右下角页码
+    data_xml.append(
+        text_shape(
+            SLIDE_WIDTH - 80,
+            SLIDE_HEIGHT - 40,
+            60,
+            24,
+            "body",
+            styled_paragraph(str(slide.get("no", "")), color=theme["muted_color"], font_size=14),
+        )
+    )
     return wrap_slide("".join(data_xml), theme, slide.get("notes", ""))
 
 
@@ -1323,180 +1525,504 @@ def render_title_only_slide(
 
 
 def render_title_body_slide(slide: dict, theme: dict) -> str:
-    data_xml = (
-        rect_shape(
-            80,
-            72,
-            180,
-            12,
-            theme["content_band_fill"],
-            border_color=theme["content_band_fill"],
-            border_width=0,
+    key_points = slide.get("key_points", [])
+    # 判断是否使用卡片式布局（3个及以下要点）
+    use_card_layout = len(key_points) <= 3 and len(key_points) > 0
+
+    # 获取主题色
+    badge_fill = theme.get("number_badge_fill", theme["content_band_fill"])
+    badge_text = theme.get("number_badge_text", "#ffffff")
+    sidebar_accent = theme.get("sidebar_accent", theme["content_band_fill"])
+    title_bg = theme.get("title_bg_fill", theme["panel_fill"])
+
+    if use_card_layout:
+        # 卡片式布局：每个要点一个卡片，增加视觉层次
+        card_width = 260
+        card_height = 200
+        card_gap = 24
+        total_width = len(key_points) * card_width + (len(key_points) - 1) * card_gap
+        start_x = (SLIDE_WIDTH - total_width) // 2
+
+        data_xml = (
+            # 左侧装饰条 - 更宽更有存在感
+            rect_shape(
+                0,
+                0,
+                12,
+                SLIDE_HEIGHT,
+                sidebar_accent,
+                border_color=sidebar_accent,
+                border_width=0,
+            )
+            # 顶部装饰线
+            + rect_shape(
+                12,
+                0,
+                SLIDE_WIDTH - 12,
+                4,
+                sidebar_accent,
+                border_color=sidebar_accent,
+                border_width=0,
+            )
+            # 标题背景 - 渐变效果区域
+            + rect_shape(24, 60, SLIDE_WIDTH - 48, 80, title_bg, border_color=theme["border_color"])
+            # 标题左侧装饰点
+            + circle_shape(40, 100, 12, badge_fill)
+            # 标题
+            + text_shape(
+                64,
+                84,
+                SLIDE_WIDTH - 100,
+                48,
+                "title",
+                styled_paragraph(slide["title"], color=theme["title_color"], font_size=28),
+            )
+            # 右下角页码装饰
+            + text_shape(
+                SLIDE_WIDTH - 80,
+                SLIDE_HEIGHT - 40,
+                60,
+                24,
+                "body",
+                styled_paragraph(str(slide.get("no", "")), color=theme["muted_color"], font_size=14),
+            )
         )
-        + text_shape(
-            80,
-            94,
-            800,
-            80,
-            "title",
-            styled_paragraph(slide["title"], color=theme["title_color"], font_size=28),
+        # 卡片 - 带阴影效果和序号圆圈
+        for i, point in enumerate(key_points, start=1):
+            card_x = start_x + (i - 1) * (card_width + card_gap)
+            # 卡片阴影（通过偏移的灰色矩形模拟）
+            data_xml += rect_shape(card_x + 3, 183, card_width, card_height, "rgb(200,200,200)", border_color="rgb(200,200,200)", border_width=0)
+            # 卡片主体
+            data_xml += (
+                rect_shape(card_x, 180, card_width, card_height, theme["panel_fill"], border_color=theme["border_color"])
+                # 序号圆圈
+                + circle_shape(card_x + card_width // 2, 200, 32, badge_fill)
+                + text_shape(
+                    card_x + card_width // 2 - 8,
+                    191,
+                    16,
+                    24,
+                    "body",
+                    styled_paragraph(str(i), color=badge_text, font_size=18),
+                )
+                # 要点文本
+                + text_shape(
+                    card_x + 20,
+                    250,
+                    card_width - 40,
+                    card_height - 80,
+                    "body",
+                    f'<p align="center"><span color="{theme["body_color"]}" fontSize="16">{escape(point)}</span></p>',
+                )
+            )
+    else:
+        # 列表布局：带左侧装饰条和序号
+        data_xml = (
+            # 左侧装饰条 - 更宽
+            rect_shape(
+                0,
+                0,
+                12,
+                SLIDE_HEIGHT,
+                sidebar_accent,
+                border_color=sidebar_accent,
+                border_width=0,
+            )
+            # 顶部装饰线
+            + rect_shape(
+                12,
+                0,
+                SLIDE_WIDTH - 12,
+                4,
+                sidebar_accent,
+                border_color=sidebar_accent,
+                border_width=0,
+            )
+            # 标题背景
+            + rect_shape(24, 60, SLIDE_WIDTH - 48, 80, title_bg, border_color=theme["border_color"])
+            # 标题左侧装饰点
+            + circle_shape(40, 100, 12, badge_fill)
+            # 标题
+            + text_shape(
+                64,
+                84,
+                SLIDE_WIDTH - 100,
+                48,
+                "title",
+                styled_paragraph(slide["title"], color=theme["title_color"], font_size=28),
+            )
+            # 内容卡片
+            + rect_shape(24, 160, SLIDE_WIDTH - 48, 320, theme["panel_fill"], border_color=theme["border_color"])
+            # 序号列表
+            + text_shape(
+                48,
+                180,
+                SLIDE_WIDTH - 96,
+                280,
+                "body",
+                numbered_bullets_xml(key_points, color=theme["body_color"], font_size=20, badge_fill=badge_fill, badge_text=badge_text),
+            )
+            # 右下角页码
+            + text_shape(
+                SLIDE_WIDTH - 80,
+                SLIDE_HEIGHT - 40,
+                60,
+                24,
+                "body",
+                styled_paragraph(str(slide.get("no", "")), color=theme["muted_color"], font_size=14),
+            )
         )
-        + rect_shape(80, 180, 800, 264, theme["panel_fill"], border_color=theme["border_color"])
-        + text_shape(
-            104,
-            198,
-            752,
-            220,
-            "body",
-            bullets_xml(slide.get("key_points", []), color=theme["body_color"]),
-        )
-    )
     return wrap_slide(data_xml, theme, slide.get("notes", ""))
 
 
 def render_two_column_slide(slide: dict, theme: dict) -> str:
     left_points, right_points = split_points(slide.get("key_points", []))
+    sidebar_accent = theme.get("sidebar_accent", theme["content_band_fill"])
+    title_bg = theme.get("title_bg_fill", theme["panel_fill"])
+    badge_fill = theme.get("number_badge_fill", theme["content_band_fill"])
+    badge_text = theme.get("number_badge_text", "#ffffff")
+
     data_xml = (
+        # 左侧装饰条 - 全高
         rect_shape(
-            80,
-            72,
-            180,
+            0,
+            0,
             12,
-            theme["content_band_fill"],
-            border_color=theme["content_band_fill"],
+            SLIDE_HEIGHT,
+            sidebar_accent,
+            border_color=sidebar_accent,
             border_width=0,
         )
+        # 顶部装饰线
+        + rect_shape(
+            12,
+            0,
+            SLIDE_WIDTH - 12,
+            4,
+            sidebar_accent,
+            border_color=sidebar_accent,
+            border_width=0,
+        )
+        # 标题区域背景
+        + rect_shape(24, 60, SLIDE_WIDTH - 48, 80, title_bg, border_color=theme["border_color"])
+        # 标题左侧装饰圆点
+        + circle_shape(44, 100, 12, badge_fill)
+        # 标题
         + text_shape(
-            80,
-            94,
-            800,
-            80,
+            68,
+            84,
+            SLIDE_WIDTH - 100,
+            48,
             "title",
             styled_paragraph(slide["title"], color=theme["title_color"], font_size=28),
         )
-        + rect_shape(80, 180, 360, 252, theme["panel_fill"], border_color=theme["border_color"])
-        + rect_shape(520, 180, 360, 252, theme["panel_alt_fill"], border_color=theme["border_color"])
-        + text_shape(104, 198, 312, 216, "body", bullets_xml(left_points, color=theme["body_color"]))
-        + text_shape(544, 198, 312, 216, "body", bullets_xml(right_points, color=theme["body_color"]))
+        # 左栏卡片 - 带阴影
+        + rect_shape(63, 183, 400, 280, "rgb(200,200,200)", border_color="rgb(200,200,200)", border_width=0)
+        + rect_shape(60, 180, 400, 280, theme["panel_fill"], border_color=theme["border_color"])
+        # 右栏卡片 - 带阴影
+        + rect_shape(503, 183, 400, 280, "rgb(200,200,200)", border_color="rgb(200,200,200)", border_width=0)
+        + rect_shape(500, 180, 400, 280, theme["panel_alt_fill"], border_color=theme["border_color"])
+        # 左栏内容
+        + text_shape(84, 200, 352, 244, "body", numbered_bullets_xml(left_points, color=theme["body_color"], font_size=18, badge_fill=badge_fill, badge_text=badge_text))
+        # 右栏内容
+        + text_shape(524, 200, 352, 244, "body", numbered_bullets_xml(right_points, color=theme["body_color"], font_size=18, badge_fill=badge_fill, badge_text=badge_text))
+        # 右下角页码
+        + text_shape(
+            SLIDE_WIDTH - 80,
+            SLIDE_HEIGHT - 40,
+            60,
+            24,
+            "body",
+            styled_paragraph(str(slide.get("no", "")), color=theme["muted_color"], font_size=14),
+        )
     )
     return wrap_slide(data_xml, theme, slide.get("notes", ""))
 
 
 def render_comparison_slide(slide: dict, theme: dict) -> str:
-    labels = slide.get("source_sections") or ["方案 A", "方案 B"]
-    left_label = labels[0] if len(labels) > 0 else "方案 A"
-    right_label = labels[1] if len(labels) > 1 else "方案 B"
+    # 尝试从标题解析对比标签（如 "A vs B"、"A/B"、"A 与 B"）
+    title = slide.get("title", "")
+    left_label = "方案 A"
+    right_label = "方案 B"
+
+    # 尝试解析标题中的对比关系
+    for sep in [" vs ", " VS ", " Vs ", " vs. ", " / ", " 与 ", " 和 "]:
+        if sep in title:
+            parts = title.split(sep, 1)
+            if len(parts) == 2:
+                left_label = parts[0].strip()
+                right_label = parts[1].strip()
+                break
+
+    # 也可以从 source_sections 覆盖
+    labels = slide.get("source_sections") or []
+    if len(labels) >= 2:
+        left_label = labels[0]
+        right_label = labels[1]
+
     left_points, right_points = split_points(slide.get("key_points", []))
+    sidebar_accent = theme.get("sidebar_accent", theme["content_band_fill"])
+    title_bg = theme.get("title_bg_fill", theme["panel_fill"])
+    badge_fill = theme.get("number_badge_fill", theme["content_band_fill"])
+    badge_text_color = theme.get("number_badge_text", "#ffffff")
+
     data_xml = (
+        # 左侧装饰条 - 全高
         rect_shape(
-            80,
-            72,
-            180,
+            0,
+            0,
             12,
-            theme["content_band_fill"],
-            border_color=theme["content_band_fill"],
+            SLIDE_HEIGHT,
+            sidebar_accent,
+            border_color=sidebar_accent,
             border_width=0,
         )
+        # 顶部装饰线
+        + rect_shape(
+            12,
+            0,
+            SLIDE_WIDTH - 12,
+            4,
+            sidebar_accent,
+            border_color=sidebar_accent,
+            border_width=0,
+        )
+        # 标题区域背景
+        + rect_shape(24, 60, SLIDE_WIDTH - 48, 80, title_bg, border_color=theme["border_color"])
+        # 标题左侧装饰圆点
+        + circle_shape(44, 100, 12, badge_fill)
+        # 标题
         + text_shape(
-            80,
-            94,
-            800,
-            80,
+            68,
+            84,
+            SLIDE_WIDTH - 100,
+            48,
             "title",
             styled_paragraph(slide["title"], color=theme["title_color"], font_size=28),
         )
-        + rect_shape(80, 162, 360, 260, theme["comparison_left_fill"], border_color=theme["border_color"])
-        + rect_shape(520, 162, 360, 260, theme["comparison_right_fill"], border_color=theme["border_color"])
-        + text_shape(
-            104,
-            182,
-            312,
-            36,
-            "body",
-            styled_paragraph(left_label, color=theme["body_color"], font_size=20),
+        # 中间分隔装饰线
+        + rect_shape(
+            478,
+            170,
+            4,
+            280,
+            sidebar_accent,
+            border_color=sidebar_accent,
+            border_width=0,
         )
+        # 左栏卡片 - 带阴影
+        + rect_shape(63, 173, 400, 280, "rgb(200,200,200)", border_color="rgb(200,200,200)", border_width=0)
+        + rect_shape(60, 170, 400, 280, theme["comparison_left_fill"], border_color=theme["border_color"])
+        # 右栏卡片 - 带阴影
+        + rect_shape(499, 173, 400, 280, "rgb(200,200,200)", border_color="rgb(200,200,200)", border_width=0)
+        + rect_shape(496, 170, 400, 280, theme["comparison_right_fill"], border_color=theme["border_color"])
+        # 左栏标签背景
+        + rect_shape(60, 170, 400, 36, badge_fill, border_color=badge_fill, border_width=0)
+        # 左栏标签文本
         + text_shape(
-            544,
-            182,
-            312,
-            36,
+            80,
+            176,
+            360,
+            28,
             "body",
-            styled_paragraph(right_label, color=theme["body_color"], font_size=20),
+            styled_paragraph(left_label, color=badge_text_color, font_size=16),
         )
-        + text_shape(104, 226, 312, 180, "body", bullets_xml(left_points, color=theme["body_color"], font_size=18))
-        + text_shape(544, 226, 312, 180, "body", bullets_xml(right_points, color=theme["body_color"], font_size=18))
+        # 右栏标签背景
+        + rect_shape(496, 170, 400, 36, badge_fill, border_color=badge_fill, border_width=0)
+        # 右栏标签文本
+        + text_shape(
+            516,
+            176,
+            360,
+            28,
+            "body",
+            styled_paragraph(right_label, color=badge_text_color, font_size=16),
+        )
+        # 左栏内容
+        + text_shape(80, 220, 360, 220, "body", bullets_xml(left_points, color=theme["body_color"], font_size=18))
+        # 右栏内容
+        + text_shape(516, 220, 360, 220, "body", bullets_xml(right_points, color=theme["body_color"], font_size=18))
+        # 右下角页码
+        + text_shape(
+            SLIDE_WIDTH - 80,
+            SLIDE_HEIGHT - 40,
+            60,
+            24,
+            "body",
+            styled_paragraph(str(slide.get("no", "")), color=theme["muted_color"], font_size=14),
+        )
     )
     return wrap_slide(data_xml, theme, slide.get("notes", ""))
 
 
 def render_timeline_slide(slide: dict, theme: dict) -> str:
-    items = []
+    key_points = slide.get("key_points", [])
+    sidebar_accent = theme.get("sidebar_accent", theme["content_band_fill"])
+    title_bg = theme.get("title_bg_fill", theme["panel_fill"])
+    badge_fill = theme.get("number_badge_fill", theme["content_band_fill"])
+
     base_y = 170
-    rail_height = max(44, len(slide.get("key_points", [])) * 62)
-    items.append(
+    rail_height = max(44, len(key_points) * 62)
+
+    data_xml = (
+        # 左侧装饰条
         rect_shape(
-            112,
+            0,
+            0,
+            12,
+            SLIDE_HEIGHT,
+            sidebar_accent,
+            border_color=sidebar_accent,
+            border_width=0,
+        )
+        # 顶部装饰线
+        + rect_shape(
+            12,
+            0,
+            SLIDE_WIDTH - 12,
+            4,
+            sidebar_accent,
+            border_color=sidebar_accent,
+            border_width=0,
+        )
+        # 标题背景
+        + rect_shape(24, 60, SLIDE_WIDTH - 48, 80, title_bg, border_color=theme["border_color"])
+        # 标题装饰圆点
+        + circle_shape(44, 100, 12, badge_fill)
+        # 标题
+        + text_shape(
+            68,
+            84,
+            SLIDE_WIDTH - 100,
+            48,
+            "title",
+            styled_paragraph(slide["title"], color=theme["title_color"], font_size=28),
+        )
+        # 时间轴垂直线
+        + rect_shape(
+            100,
             base_y,
-            8,
+            6,
             rail_height,
             theme["timeline_rail_fill"],
             border_color=theme["timeline_rail_fill"],
             border_width=0,
         )
     )
-    for index, point in enumerate(slide.get("key_points", [])):
+
+    # 时间轴项目 - 带圆点标记和卡片
+    for index, point in enumerate(key_points):
         y = base_y + index * 62
-        items.append(rect_shape(144, y, 716, 44, theme["timeline_item_fill"], border_color=theme["border_color"]))
-        items.append(
-            centered_text_shape(
-                170,
-                y + 8,
-                664,
-                28,
-                point,
-                color=theme["body_color"],
-                font_size=16,
-            )
+        # 时间轴圆点
+        data_xml += circle_shape(103, y + 22, 16, badge_fill)
+        # 时间轴卡片阴影
+        data_xml += rect_shape(127, y + 3, 720, 44, "rgb(200,200,200)", border_color="rgb(200,200,200)", border_width=0)
+        # 时间轴卡片
+        data_xml += rect_shape(124, y, 720, 44, theme["timeline_item_fill"], border_color=theme["border_color"])
+        # 内容文本
+        data_xml += text_shape(
+            140,
+            y + 10,
+            688,
+            28,
+            "body",
+            styled_paragraph(point, color=theme["body_color"], font_size=16),
         )
-    data_xml = text_shape(
-        80,
-        72,
-        800,
-        80,
-        "title",
-        styled_paragraph(slide["title"], color=theme["title_color"], font_size=28),
-    ) + "".join(items)
+
+    # 右下角页码
+    data_xml += text_shape(
+        SLIDE_WIDTH - 80,
+        SLIDE_HEIGHT - 40,
+        60,
+        24,
+        "body",
+        styled_paragraph(str(slide.get("no", "")), color=theme["muted_color"], font_size=14),
+    )
     return wrap_slide(data_xml, theme, slide.get("notes", ""))
 
 
 def render_metrics_slide(slide: dict, theme: dict) -> str:
-    cards = []
-    for index, point in enumerate(slide.get("key_points", [])):
+    key_points = slide.get("key_points", [])
+    sidebar_accent = theme.get("sidebar_accent", theme["content_band_fill"])
+    title_bg = theme.get("title_bg_fill", theme["panel_fill"])
+    badge_fill = theme.get("number_badge_fill", theme["content_band_fill"])
+
+    data_xml = (
+        # 左侧装饰条
+        rect_shape(
+            0,
+            0,
+            12,
+            SLIDE_HEIGHT,
+            sidebar_accent,
+            border_color=sidebar_accent,
+            border_width=0,
+        )
+        # 顶部装饰线
+        + rect_shape(
+            12,
+            0,
+            SLIDE_WIDTH - 12,
+            4,
+            sidebar_accent,
+            border_color=sidebar_accent,
+            border_width=0,
+        )
+        # 标题背景
+        + rect_shape(24, 60, SLIDE_WIDTH - 48, 80, title_bg, border_color=theme["border_color"])
+        # 标题装饰圆点
+        + circle_shape(44, 100, 12, badge_fill)
+        # 标题
+        + text_shape(
+            68,
+            84,
+            SLIDE_WIDTH - 100,
+            48,
+            "title",
+            styled_paragraph(slide["title"], color=theme["title_color"], font_size=28),
+        )
+    )
+
+    # 指标卡片 - 带阴影和数字标记
+    for index, point in enumerate(key_points):
         row = index // 3
         col = index % 3
-        x = 80 + col * 260
+        x = 60 + col * 280
         y = 180 + row * 120
         fill_color = theme["metrics_highlight_fill"] if index == 0 else theme["metrics_card_fill"]
-        cards.append(rect_shape(x, y, 220, 88, fill_color, border_color=theme["border_color"]))
-        cards.append(
-            centered_text_shape(
-                x + 10,
-                y + 28,
-                200,
-                32,
-                point,
-                color=theme["body_color"],
-                font_size=18,
-            )
+        # 卡片阴影
+        data_xml += rect_shape(x + 3, y + 3, 240, 88, "rgb(200,200,200)", border_color="rgb(200,200,200)", border_width=0)
+        # 卡片主体
+        data_xml += rect_shape(x, y, 240, 88, fill_color, border_color=theme["border_color"])
+        # 序号圆圈
+        data_xml += circle_shape(x + 24, y + 44, 24, badge_fill)
+        data_xml += text_shape(
+            x + 16,
+            y + 36,
+            16,
+            20,
+            "body",
+            styled_paragraph(str(index + 1), color=theme.get("number_badge_text", "#ffffff"), font_size=14),
         )
-    data_xml = text_shape(
-        80,
-        72,
-        800,
-        80,
-        "title",
-        styled_paragraph(slide["title"], color=theme["title_color"], font_size=28),
-    ) + "".join(cards)
+        # 指标文本
+        data_xml += text_shape(
+            x + 44,
+            y + 28,
+            180,
+            40,
+            "body",
+            styled_paragraph(point, color=theme["body_color"], font_size=16),
+        )
+
+    # 右下角页码
+    data_xml += text_shape(
+        SLIDE_WIDTH - 80,
+        SLIDE_HEIGHT - 40,
+        60,
+        24,
+        "body",
+        styled_paragraph(str(slide.get("no", "")), color=theme["muted_color"], font_size=14),
+    )
     return wrap_slide(data_xml, theme, slide.get("notes", ""))
 
 

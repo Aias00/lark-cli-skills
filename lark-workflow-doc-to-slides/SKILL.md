@@ -32,7 +32,7 @@ metadata:
 可选输入：
 
 - `content_mode`: `faithful` | `report`
-- `theme`: `briefing` | `document` | `spotlight`
+- `theme`: `briefing` | `document` | `spotlight` | `minimal` | `sunset`
 - `cover_style`: `editorial` | `modern`
 - `title`
 - `max_slides`
@@ -66,8 +66,8 @@ append 模式额外必填：
 - append 模式只允许新增 slides；禁止重写、删除、重排已有页面。
 - append 模式默认不生成通用“封面 / 目录”；只有用户明确要求新章节分隔页时，才允许使用 `role = "section"`、`layout = "title-only"` 且 `section_divider: true` 的 divider 页。
 - append 模式下禁止再使用 `role = "cover"`，即使 `section_divider = true` 也不允许；章节页必须显式写成 `role = "section"`、`layout = "title-only"`、`section_divider = true`。
-- 内置 `theme` 预设只有 `briefing`、`document`、`spotlight`；未知值必须视为非法 outline。
-- 内置 `cover_style` 只有 `editorial`、`modern`；如果未显式提供，则按 `content_mode -> theme -> cover_style` 推导默认值：`report -> briefing -> editorial`，`faithful -> document -> editorial`，`spotlight -> modern`。
+- 内置 `theme` 预设包括 `briefing`、`document`、`spotlight`、`minimal`、`sunset`；未知值必须视为非法 outline。
+- 内置 `cover_style` 只有 `editorial`、`modern`；如果未显式提供，则按 `content_mode -> theme -> cover_style` 推导默认值：`report -> briefing -> editorial`，`faithful -> document -> editorial`，`spotlight/minimal/sunset -> modern`。
 - `editorial` 的语义是克制、专业的封面；`modern` 的语义是更偏 presentation-style 的封面，可理解为 accent bar + title stack + subtitle panel 的组合，但仍必须在浅色主题下保持可读和成立，不能把它理解成仅适用于深色背景的变体。
 - 当前封面副标题应按实际 render 顺序理解：优先取 `presentation.subtitle`，没有时再回退 cover slide 的 `objective`，最后才回退 `key_points[0]`。若同时填写这些字段，优先保持它们一致，避免 outline 语义分叉。
 
